@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Sanrio Pairing Quiz! 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=DynaPuff:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="quiz-header">
+        <h1>Sanrio Sweethearts Pairing Quiz!</h1>
+        <p>Discover our unique Sanrio character pairing and a special letter for you 🎀</p>
+    </header>
+
+    <main class="quiz-container">
+        <section id="introduction" class="quiz-section active">
+            <img src="images/kuromi_cinnamoroll_hug.png" alt="Kuromi and Cinnamoroll hugging" class="intro-image">
+            <h2>Welcome, My Sweet!</h2>
+            <p>This little quiz is a special way to celebrate our connection, inspired by the adorable world of Sanrio. Answer a few fun questions to reveal **our unique Sanrio pairing** and a secret message just for you! 🥰</p>
+            <button id="start-quiz-btn" class="cute-button">Start Our Journey!</button>
+        </section>
+
+        <section id="quiz-questions" class="quiz-section hidden">
+            <div id="question-area">
+                </div>
+            <div class="navigation-buttons">
+                <button id="prev-btn" class="cute-button" disabled>Previous</button>
+                <button id="next-btn" class="cute-button">Next</button>
+                <button id="submit-quiz-btn" class="cute-button hidden">Reveal Our Pairing!</button>
+            </div>
+        </section>
+
+        <section id="quiz-result" class="quiz-section hidden">
+            <div class="result-card">
+                <h2 id="result-pairing"></h2>
+                <img id="result-image" src="" alt="Sanrio Character Pairing">
+                <p id="result-description"></p>
+                <h3>A Special Love Letter For You:</h3>
+                <p id="result-love-letter" class="love-letter-text"></p>
+                <button id="retake-quiz-btn" class="cute-button">Retake Quiz</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="quiz-footer">
+        <p>Made with love (and a little bit of Kuromi mischief) for you ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
