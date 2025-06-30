@@ -12,7 +12,7 @@ body {
 }
 
 .quiz-container {
-    background-color: #ffffff;
+    background: linear-gradient(135deg, #fce4ec 60%, #e0c3fc 100%); /* Soft pink to lavender gradient */
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 40px;
@@ -22,6 +22,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden; /* For cute background elements */
+    border: 3px solid #db7093; /* Cute pink border */
 }
 
 /* Header and Footer */
@@ -76,11 +77,13 @@ body {
 
 /* Introduction Section */
 .intro-image {
-    max-width: 80%;
+    max-width: 350px;
+    min-width: 180px;
+    width: 100%;
     height: auto;
+    max-height: 320px;
     border-radius: 15px;
     margin-bottom: 25px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 #introduction h2 {
@@ -329,6 +332,11 @@ body {
         font-size: 1em;
         padding: 20px;
     }
+    .intro-image {
+        max-width: 250px;
+        min-width: 120px;
+        max-height: 200px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -352,5 +360,10 @@ body {
     }
     .answer-option label {
         font-size: 0.95em;
+    }
+    .intro-image {
+        max-width: 180px;
+        min-width: 80px;
+        max-height: 120px;
     }
 }
