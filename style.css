@@ -77,11 +77,9 @@ body {
 
 /* Introduction Section */
 .intro-image {
+    width: 90%;
     max-width: 350px;
-    min-width: 180px;
-    width: 100%;
     height: auto;
-    max-height: 320px;
     border-radius: 15px;
     margin-bottom: 25px;
 }
@@ -332,11 +330,6 @@ body {
         font-size: 1em;
         padding: 20px;
     }
-    .intro-image {
-        max-width: 250px;
-        min-width: 120px;
-        max-height: 200px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -362,8 +355,7 @@ body {
         font-size: 0.95em;
     }
     .intro-image {
-        max-width: 180px;
-        min-width: 80px;
-        max-height: 120px;
+        width: 98%;
+        max-width: 220px;
     }
 }
