@@ -81,7 +81,7 @@ body {
     max-width: 350px;
     height: auto;
     border-radius: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 #introduction h2 {
@@ -357,5 +357,6 @@ body {
     .intro-image {
         width: 98%;
         max-width: 220px;
+        margin-bottom: 8px;
     }
 }
