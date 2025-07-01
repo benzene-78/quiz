@@ -291,11 +291,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mappings for result images (you'll need these image files in your 'images' folder)
     const resultImages = {
-        "Kuromi × Cinnamoroll": "images/kuromi_cinnamoroll_result.jpg",
-        "My Melody × Hello Kitty": "images/mymelody_hellokitty_result.jpg",
-        "Gudetama × Pompompurin": "images/gudetama_pompompurin_result.jpg",
-        "Chococat × Badtz-Maru": "images/chococat_badtzmaru_result.jpg",
-        "Keroppi × Little Twin Stars": "images/keroppi_littletwinstars_result.jpg"
+        "Kuromi × Cinnamoroll": "./kuromi_cinnamoroll_result.jpg",
+        "My Melody × Hello Kitty": "./mymelody_hellokitty_result.jpg",
+        "Gudetama × Pompompurin": "./gudetama_pompompurin_result.jpg",
+        "Chococat × Badtz-Maru": "./chococat_badtzmaru_result.jpg",
+        "Keroppi × Little Twin Stars": "./keroppi_littletwinstars_result.jpg"
     };
 
     // Evaluation logic
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', () => {
             resultImage.alt = result.pairing;
         } else {
             // Fallback image if no specific image is found
-            resultImage.src = "images/default_sanrio.jpg";
+            resultImage.src = "./default_sanrio.jpg";
             resultImage.alt = "No image found for this pairing.";
             // Show a message below the image
             const noImageMsg = document.createElement('p');
