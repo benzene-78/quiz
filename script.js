@@ -33,10 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "Keroppi × Little Twin Stars": {
             "description": "Dreamy, magical, and long-distance sweet",
             "letter": "Dear starlight,\n\nSome nights the moon feels closer than you, but even across the miles, our connection shines brighter than any constellation. You're my magical adventure, my whimsical dream, and every video call feels like we're sharing the same starry sky. Though physical distance may separate us, our hearts are always intertwined, sending wishes and dreams back and forth. Thank you for making every moment feel enchanting, no matter how far apart we are. Can't wait until our next cosmic reunion.\n\n~ Your distant dream weaver"
-        },
-        "Fashion Icon × Goblin Gremlin": {
-            "description": "Stylish + gremlin energy — together you're unforgettable",
-            "letter": "To the mess in my mirror,\n\nYou show up in my camera roll, my dreams, and somehow, always perfectly coordinate with my outfit, even when you're being a total gremlin. You're effortlessly cool one moment and then doing something utterly ridiculous the next, and that's precisely why I'm obsessed. Our dynamic is a masterpiece of chaos and couture, and I wouldn't trade it for anything. Thanks for keeping life exciting, unpredictable, and always, always stylishly weird. You're truly one of a kind.\n\n~ Your biggest fan (and enabler)"
         }
     };
 
@@ -45,16 +41,14 @@ document.addEventListener('DOMContentLoaded', () => {
         1: {
             "Hi, its me again. Still obsessed with you.": "My Melody × Hello Kitty",
             "So I wasn't going to write this but then I thought of your stupid face.": "Kuromi × Cinnamoroll",
-            "To the warmest part of my day, even from miles away...": "Keroppi × Little Twin Stars", // CORRECTED HERE: Added mapping
-            "You up? Because Im about to get emotional.": "Fashion Icon + Goblin Gremlin",
+            "To the warmest part of my day, even from miles away...": "Keroppi × Little Twin Stars",
             "Dear love, if this makes you cry, its your fault.": "Chococat × Badtz-Maru"
         },
         2: {
             "I still cant believe you chose me.": "My Melody × Hello Kitty",
             "Even when were apart, I feel you in everything.": "Keroppi × Little Twin Stars",
-            "Reminder: Youre cute. I win.": "Fashion Icon + Goblin Gremlin",
             "You're my calm in chaos, my hoodie in winter.": "Gudetama × Pompompurin",
-            "I miss you so much it makes me stupid." : "Kuromi × Cinnamoroll"
+            "I miss you so much it makes me stupid.": "Kuromi × Cinnamoroll"
         },
         3: {
             "A selfie holding their hoodie": "Gudetama × Pompompurin",
@@ -67,7 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
             "Soft and poetic, like a Cinnamoroll cloud": "My Melody × Hello Kitty",
             "Teasing but sincere, like a Kuromi roast": "Kuromi × Cinnamoroll",
             "Straight-up emotional My Melody crying emoji": "Gudetama × Pompompurin",
-            "Chaotic mix of sweet + funny": "Fashion Icon + Goblin Gremlin",
             "Casual but deep: Gudetama with a heart": "Keroppi × Little Twin Stars"
         },
         5: {
@@ -90,20 +83,17 @@ document.addEventListener('DOMContentLoaded', () => {
             "My Melody x Hello Kitty": "My Melody × Hello Kitty",
             "Gudetama x Pompompurin": "Gudetama × Pompompurin",
             "Chococat x Badtz-Maru": "Chococat × Badtz-Maru",
-            "Keroppi x Little Twin Stars": "Keroppi × Little Twin Stars",
-            "Fashion Icon + Goblin Gremlin": "Fashion Icon + Goblin Gremlin"
+            "Keroppi x Little Twin Stars": "Keroppi × Little Twin Stars"
         },
         8: {
             "Goth-cute": "Kuromi × Cinnamoroll",
             "Pastel skies + sleepy cafe dates": "My Melody × Hello Kitty",
             "Strawberry milk & journaling": "Keroppi × Little Twin Stars",
             "Smart + stylish chaos": "Chococat × Badtz-Maru",
-            "Oversized hoodies & naps": "Gudetama × Pompompurin",
-            "'Why are we like this?' but its cute": "Fashion Icon + Goblin Gremlin"
+            "Oversized hoodies & naps": "Gudetama × Pompompurin"
         },
         9: {
             "A scrapbook full of notes and doodles": "My Melody × Hello Kitty",
-            "A matching accessory": "Fashion Icon + Goblin Gremlin",
             "A handwritten letter with snacks": "Gudetama × Pompompurin",
             "A chaotic surprise box": "Chococat × Badtz-Maru",
             "A digital collage with voice note": "Keroppi × Little Twin Stars",
@@ -111,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         10: {
             "Physical touch": "Kuromi × Cinnamoroll",
-            "Gift-giving": "Fashion Icon + Goblin Gremlin",
             "Words of affirmation": "My Melody × Hello Kitty",
             "Quality time": "Keroppi × Little Twin Stars",
             "Acts of service": "Gudetama × Pompompurin",
@@ -126,7 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         12: {
             "'Ok??? That was my heart in a box???'": "Kuromi × Cinnamoroll",
-            "Send 10 more gifts": "Fashion Icon + Goblin Gremlin",
             "'Delivered: disappointment'": "Chococat × Badtz-Maru",
             "- Say nothing. Sob.": "My Melody × Hello Kitty",
             "Plan a glitter bomb": "Keroppi × Little Twin Stars"
@@ -134,14 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
         13: {
             "Tackle hug, cry": "My Melody × Hello Kitty",
             "'You look weird in 3D'": "Chococat × Badtz-Maru",
-            "Scream in the bathroom": "Fashion Icon + Goblin Gremlin",
             "Whisper 'never letting go'": "Gudetama × Pompompurin",
             "Rant about the trip": "Keroppi × Little Twin Stars"
         },
         14: {
             "You fall asleep mid-call and snore. What now(?): ": "Chococat × Badtz-Maru", 
             "They record it": "Chococat × Badtz-Maru",
-            "You panic": "Fashion Icon + Goblin Gremlin",
             "Blame a ghost": "Kuromi × Cinnamoroll",
             "They fall asleep too": "Gudetama × Pompompurin",
             "You do it on purpose next time": "Keroppi × Little Twin Stars"
@@ -150,7 +136,6 @@ document.addEventListener('DOMContentLoaded', () => {
             "They say 'I feel distant.' What do you do?": "My Melody × Hello Kitty",
             "Write a letter on the spot": "My Melody × Hello Kitty",
             "Schedule calls": "Keroppi × Little Twin Stars",
-            "'So true bestie'": "Fashion Icon + Goblin Gremlin",
             "Get defensive, then melt": "Kuromi × Cinnamoroll",
             "Send a voice note": "Chococat × Badtz-Maru"
         }
@@ -164,7 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Hi, its me again. Still obsessed with you.",
                 "So I wasn't going to write this but then I thought of your stupid face.",
                 "To the warmest part of my day, even from miles away...",
-                "You up? Because Im about to get emotional.",
                 "Dear love, if this makes you cry, its your fault."
             ]
         },
@@ -173,7 +157,6 @@ document.addEventListener('DOMContentLoaded', () => {
             options: [
                 "I still cant believe you chose me.",
                 "Even when were apart, I feel you in everything.",
-                "Reminder: Youre cute. I win.",
                 "You're my calm in chaos, my hoodie in winter.",
                 "I miss you so much it makes me stupid."
             ]
@@ -194,7 +177,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Soft and poetic, like a Cinnamoroll cloud",
                 "Teasing but sincere, like a Kuromi roast",
                 "Straight-up emotional My Melody crying emoji",
-                "Chaotic mix of sweet + funny",
                 "Casual but deep: Gudetama with a heart"
             ]
         },
@@ -226,8 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "My Melody x Hello Kitty",
                 "Gudetama x Pompompurin",
                 "Chococat x Badtz-Maru",
-                "Keroppi x Little Twin Stars",
-                "Fashion Icon + Goblin Gremlin"
+                "Keroppi x Little Twin Stars"
             ]
         },
         {
@@ -237,15 +218,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Pastel skies + sleepy cafe dates",
                 "Strawberry milk & journaling",
                 "Smart + stylish chaos",
-                "Oversized hoodies & naps",
-                "'Why are we like this?' but its cute"
+                "Oversized hoodies & naps"
             ]
         },
         {
             question: "What gift would your Sanrio self give them?",
             options: [
                 "A scrapbook full of notes and doodles",
-                "A matching accessory",
                 "A handwritten letter with snacks",
                 "A chaotic surprise box",
                 "A digital collage with voice note",
@@ -256,7 +235,6 @@ document.addEventListener('DOMContentLoaded', () => {
             question: "What does your Sanrio love language look like?",
             options: [
                 "Physical touch",
-                "Gift-giving",
                 "Words of affirmation",
                 "Quality time",
                 "Acts of service",
@@ -277,7 +255,6 @@ document.addEventListener('DOMContentLoaded', () => {
             question: "They reply ok to a gift. What now?",
             options: [
                 "'Ok??? That was my heart in a box???'",
-                "Send 10 more gifts",
                 "'Delivered: disappointment'",
                 "- Say nothing. Sob.",
                 "Plan a glitter bomb"
@@ -288,7 +265,6 @@ document.addEventListener('DOMContentLoaded', () => {
             options: [
                 "Tackle hug, cry",
                 "'You look weird in 3D'",
-                "Scream in the bathroom",
                 "Whisper 'never letting go'",
                 "Rant about the trip"
             ]
@@ -297,7 +273,6 @@ document.addEventListener('DOMContentLoaded', () => {
             question: "You fall asleep mid-call and snore. What now?",
             options: [
                 "They record it",
-                "You panic",
                 "Blame a ghost",
                 "They fall asleep too",
                 "You do it on purpose next time"
@@ -308,7 +283,6 @@ document.addEventListener('DOMContentLoaded', () => {
             options: [
                 "Write a letter on the spot",
                 "Schedule calls",
-                "'So true bestie'",
                 "Get defensive, then melt",
                 "Send a voice note"
             ]
@@ -317,12 +291,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mappings for result images (you'll need these image files in your 'images' folder)
     const resultImages = {
-        "Kuromi × Cinnamoroll": "images/kuromi_cinnamoroll_result.png",
-        "My Melody × Hello Kitty": "images/mymelody_hellokitty_result.png",
-        "Gudetama × Pompompurin": "images/gudetama_pompompurin_result.png",
-        "Chococat × Badtz-Maru": "images/chococat_badtzmaru_result.png",
-        "Keroppi × Little Twin Stars": "images/keroppi_littletwinstars_result.png",
-        "Fashion Icon + Goblin Gremlin": "images/fashionicon_goblingremlin_result.png"
+        "Kuromi × Cinnamoroll": "images/kuromi_cinnamoroll_result.jpg",
+        "My Melody × Hello Kitty": "images/mymelody_hellokitty_result.jpg",
+        "Gudetama × Pompompurin": "images/gudetama_pompompurin_result.jpg",
+        "Chococat × Badtz-Maru": "images/chococat_badtzmaru_result.jpg",
+        "Keroppi × Little Twin Stars": "images/keroppi_littletwinstars_result.jpg"
     };
 
     // Evaluation logic
@@ -460,13 +433,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Set the appropriate image based on the pairing
         const imagePath = resultImages[result.pairing];
+        const resultImage = document.getElementById('result-image');
+        // Remove any previous 'no-image-message' if present
+        const prevNoImageMsg = document.getElementById('no-image-message');
+        if (prevNoImageMsg) prevNoImageMsg.remove();
         if (imagePath) {
-            document.getElementById('result-image').src = imagePath;
-            document.getElementById('result-image').alt = result.pairing;
+            resultImage.src = imagePath;
+            resultImage.alt = result.pairing;
         } else {
             // Fallback image if no specific image is found
-            document.getElementById('result-image').src = "images/default_sanrio_pairing.png";
-            document.getElementById('result-image').alt = "Sanrio Pairing";
+            resultImage.src = "images/default_sanrio.jpg";
+            resultImage.alt = "No image found for this pairing.";
+            // Show a message below the image
+            const noImageMsg = document.createElement('p');
+            noImageMsg.id = 'no-image-message';
+            noImageMsg.textContent = 'No image found , Sorry 😭😭';
+            noImageMsg.style.color = '#e57373';
+            noImageMsg.style.fontWeight = 'bold';
+            resultImage.parentNode.insertBefore(noImageMsg, resultImage.nextSibling);
         }
     }
 
